@@ -1,24 +1,85 @@
-# Ejercicios_Programación_Y_Javascript
+# Guide to Programming with Exercises
 
-- Gracias a este repositorio, podrás encontrar ejercicios para mejorar lógica de programación.
-- El lenguaje empleado para la solución de los ejercicios ha sido JavaScript. Pero es posible hacer estos ejercicios en otros lenguajes de programación sin ningún problema.
+## Guides
 
-## Ver los ejercicios
+- [JavaScript](Guides/JavaScript.md)
+- [TypeScript](Guides/TypeScript.md)
+- [Python](Guides/Python.md)
+- [Java](Guides/Java.md)
+- [PHP](Guides/PHP.md)
+- [Go](Guides/Go.md)
+- [Kotlin](Guides/Kotlin.md)
+- [C](Guides/C.md)
+- [C#](Guides/CSharp.md)
+- [C++](Guides/C++.md)
+- [Swift](Guides/Swift.md)
+- [Rust](Guides/Rust.md)
+- [R](Guides/R.md)
+- [assembly](Guides/assembler.md)
 
-Los ejercicios están divididos por ramas:
+## Cheat Sheets
 
-- [ej-Eloquent-JavaScript](https://github.com/Jhoan5/Ejercicios_Programacion_Y_Javascript/tree/ej-enloquent-JS)
-- [mentoria](https://github.com/Jhoan5/Ejercicios_Programacion_Y_Javascript/tree/mentoria)
-- [otros-ejercicios](https://github.com/Jhoan5/Ejercicios_Programacion_Y_Javascript/tree/otros-ejercicios)
+- [JavaScript](CheatSheet/JavaScript.md)
+- [TypeScript](CheatSheet/TypeScript.md)
+- [Python](CheatSheet/Python.md)
+- [Java](CheatSheet/Java.md)
+- [PHP](CheatSheet/PHP.md)
+- [Go](CheatSheet/Go.md)
+- [C#](CheatSheet/CSharp.md)
+- [C++](CheatSheet/C++.md)
 
-## contribución
+## Exercises
 
-Si quieres contribuir a este repositorio, puedes hacerlo de la siguiente manera:
+- [Go to the exercises](Exercises/Exercises.md)
 
-- [Fork este repositorio](https://github.com/Jhoan5/Ejercicios_Programcion_Y_Javascript/fork)
+  > **Note:**
+  > The solutions are not yet available.
 
-- Clona el repositorio
+## Contributing
+
+- [Fork this repository](https://github.com/Jhoan5/Ejercicios_Programcion_Y_Javascript/fork)
+
+- Clone the repository
 
 ```bash
-$ git clone https://github.com/Jhoan5/Ejercicios_Programcion_Y_Javascript
+git clone https://github.com/Jhoan5/GuideToProgrammingWithExercises.git
+```
+
+```
+GuideToProgrammingWithExercises
+├─ .gitignore
+├─ .prettierrc.json
+├─ CheatSheet
+│  ├─ C#.md
+│  ├─ C++.md
+│  ├─ Go.md
+│  ├─ Java.md
+│  ├─ JavaScript.md
+│  ├─ PHP.md
+│  ├─ Python.md
+│  └─ TypeScript.md
+├─ Excercises
+│  └─ Excersices.md
+├─ Guides
+│  ├─ Assembler.md
+│  ├─ C#.md
+│  ├─ C++.md
+│  ├─ C.md
+│  ├─ Go.md
+│  ├─ Java.md
+│  ├─ JavaScript.md
+│  ├─ Kotlin.md
+│  ├─ PHP.md
+│  ├─ Python.md
+│  ├─ R.md
+│  ├─ Rust.md
+│  ├─ Swift.md
+│  └─ TypeScript.md
+├─ index.html
+├─ LICENCE
+├─ Pages
+│  ├─ app.js
+│  └─ robots.txt
+└─ README.md
+
 ```

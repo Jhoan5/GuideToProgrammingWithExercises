@@ -1,0 +1,63 @@
+# Ignore VSCode settings
+.vscode/
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+*.out
+*.exe
+
+# System files
+.DS_Store
+Thumbs.db
+
+# MacOS
+*.swp
+*.swo
+
+# IDE configurations
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Prettier and editor configurations
+.prettierignore
+.editorconfig
+
+# Test coverage
+coverage/
+*.lcov
+
+# Miscellaneous
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Git
+.git/
