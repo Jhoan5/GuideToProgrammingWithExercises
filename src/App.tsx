@@ -6,17 +6,17 @@ import Options from './components/Options'
 import useMarkDown from './hooks/useMarkDown'
 
 const files = ['C++', 'Go', 'Java', 'JavaScript', 'PHP', 'Python', 'TypeScript']
-const path = '../CheatSheet'
+const path = 'public/CheatSheet'
 
 function App() {
   const [selected, setSelected] = useState({
     fileA: files[0],
-    fileB: files[1],
+    fileB: files[1]
   })
 
   const [markdownContent, setMarkdownContent] = useState({
     fileA: '',
-    fileB: '',
+    fileB: ''
   })
 
   const { fileA, fileB } = selected
@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     setMarkdownContent({
       fileA: contentFileA,
-      fileB: contentFileB,
+      fileB: contentFileB
     })
   }, [contentFileA, contentFileB])
 
@@ -34,11 +34,11 @@ function App() {
 
   function handleSelectChange(
     e: React.ChangeEvent<HTMLSelectElement>,
-    fileType: FileAB,
+    fileType: FileAB
   ) {
     setSelected((prevSelected) => ({
       ...prevSelected,
-      [fileType]: e.target.value,
+      [fileType]: e.target.value
     }))
   }
 
@@ -47,7 +47,7 @@ function App() {
   return (
     <>
       <h2 style={{ textAlign: 'center' }}>CheatSheets Compare</h2>
-      <div className="options-container">
+      <div className='options-container'>
         {filesAB.map((fileType) => (
           <select
             key={fileType}
@@ -58,9 +58,9 @@ function App() {
           </select>
         ))}
       </div>
-      <div className="markdown-container">
+      <div className='markdown-container'>
         {filesAB.map((fileType) => (
-          <section key={fileType} className="markdown-body">
+          <section key={fileType} className='markdown-body'>
             <LoadHTML markdownText={markdownContent[fileType]} />
           </section>
         ))}
