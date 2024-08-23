@@ -1,0 +1,44 @@
+.markdown-body {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 1rem;
+}
+
+.options-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.markdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.markdown-container section {
+  overflow: scroll;
+  height: 90vh;
+}
+
+code,
+pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+h2:nth-child(1) {
+  font-size: xx-large;
+  text-align: center;
+}
+
+select {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
