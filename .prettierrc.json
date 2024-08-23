@@ -1,30 +1,40 @@
 {
-  "insertPragma": false,
+  "endOfLine": "crlf",
+  "trimTrailingWhitespace": true,
+  "insertFinalNewline": true,
   "requirePragma": false,
+  "insertPragma": false,
   "overrides": [
     {
-      "files": "*.md",
+      "files": "*.{js,ts,jsx,tsx}",
       "options": {
-        "printWidth": 120,
-        "endOfLine": "crlf",
+        "printWidth": 80,
+        "arrowParens": "always",
+        "bracketSpacing": true,
+        "proseWrap": "always",
+        "semi": false,
+        "singleQuote": true,
         "tabWidth": 2,
-        "useTabs": false
+        "useTabs": false,
+        "trailingComma": "none",
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": true
       }
     },
     {
-      "files": "*.js",
+      "files": "*.{jsx,tsx}",
+      "options": {
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": true
+      }
+    },
+    {
+      "files": "*.json",
       "options": {
         "printWidth": 80,
         "tabWidth": 2,
-        "useTabs": false,
-        "singleQuote": true,
-        "trailingComma": "all",
-        "bracketSpacing": true,
-        "semi": false,
-        "arrowParens": "always"
+        "useTabs": false
       }
     }
-  ],
-  "ignorePath": ".prettierignore",
-  "editor.formatOnSave": true
+  ]
 }
